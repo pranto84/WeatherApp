@@ -11,6 +11,6 @@ data class Location (
     @SerializedName("lon"             ) var lon            : String? = null,
     @SerializedName("tz_id"           ) var tzId           : String? = null,
     @SerializedName("localtime_epoch" ) var localtimeEpoch : String? = null,
-    @SerializedName("localtime"       ) var localtime      : String? = null
+    @SerializedName("localtime"       ) var localtime      : String = "0 0"
 
 )
